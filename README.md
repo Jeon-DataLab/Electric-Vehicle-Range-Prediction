@@ -1,3 +1,5 @@
+## Electric Vehicle Range Prediction
+
 **Project Overview**
 This project leverages the Electric Vehicle Population Data from the US Department of Licensing to predict the electric range of vehicles. The data captures an array of Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) registered in Washington State.
 
