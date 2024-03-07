@@ -18,32 +18,19 @@ Three models were evaluated:
 - Gradient Boosting Regressor
 
 **Model Performance**
-The Linear Regression model performed poorly, with an MSE (Mean Squared Error) of approximately 9.35 ×10^21
-9.35×10 
-21
-  and an R^2 score of about 
-−
-1.07
-×
-1
-0
-18
-−1.07×10 
-18
- , indicating that the model was not suitable for this dataset.
+-The Linear Regression model performed poorly, with an MSE (Mean Squared Error) of approximately 9.35 × 10^21 and an R^2 score of about −1.07 × 10^18, indicating that the model was not suitable for this dataset.
+- The Random Forest Regressor showed excellent perormance with an MSE of 23.52 and an R^2 score of 0.9973, suggesting the model was able to explain 99.73% of the variance in the electric range of the vehicles.
+- The Gradient Boosting Regressor also performed well, with an MSE of 67.79 and an R^2 score of 0.9922, explaining 99.22% of the variance.
 
- , indicating that the model was not suitable for this dataset.
-The Random Forest Regressor showed excellent performance with an MSE of 23.52 and an R^2 score of 0.9973, suggesting the model was able to explain 99.73% of the variance in the electric range of the vehicles.
-The Gradient Boosting Regressor also performed well, with an MSE of 67.79 and an R^2 score of 0.9922, explaining 99.22% of the variance.
 The models were further analyzed to determine feature importance, revealing that 'Model Year' and the 'Electric Vehicle Type' are significant predictors of a vehicle's electric range.
 
-Feature Importance
+**Feature Importance**
 The top feature importances from the Random Forest and Gradient Boosting models are as follows:
 
-Model Year
-Electric Vehicle Type
-Specific Models and Makes (e.g., TESLA Model 3, NISSAN LEAF)
+- Model Year
+- Electric Vehicle Type
+- Specific Models and Makes (e.g., TESLA Model 3, NISSAN LEAF)
 These insights indicate that newer vehicle models and the specific type of EV (BEV or PHEV) play a critical role in determining the electric range.
 
-Conclusions
+**Conclusions
 The analysis has provided a clear understanding of the features that influence electric range most significantly. Such models can guide potential EV buyers and help manufacturers focus on the factors that matter most in improving the range of their vehicles.
