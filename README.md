@@ -34,5 +34,5 @@ The top feature importances from the Random Forest and Gradient Boosting models 
 - Specific Models and Makes (e.g., TESLA Model 3, NISSAN LEAF)
 These insights indicate that newer vehicle models and the specific type of EV (BEV or PHEV) play a critical role in determining the electric range.
 
-**Conclusions
+**Conclusions**
 The analysis has provided a clear understanding of the features that influence electric range most significantly. Such models can guide potential EV buyers and help manufacturers focus on the factors that matter most in improving the range of their vehicles.
